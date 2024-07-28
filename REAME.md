@@ -4,3 +4,7 @@
 ```
 
 all element should be reside inside of an element. without element,there is no menaing . element creates structure of the webpage.
+
+Two types of link. 1. other page within our website2. of website
+
+for the anchor tag href actually create the link.without it thats just text
