@@ -1,0 +1,30 @@
+/* what will happen if mentioed font family not available in users computer? */
+h1 {
+  color: blue;
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  /* 1.5 times by the font-size */
+  line-height: 1.5;
+}
+/* nested element getting same style because of inheritance like here <em> inside <p> */
+h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* default font size 16Px */
+li {
+  font-family: sans-serif;
+  font-size: 20px;
+}
