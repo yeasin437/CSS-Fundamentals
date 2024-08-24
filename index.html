@@ -29,7 +29,9 @@
           width="50px"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
         <img
           src="post-img.jpg"
           alt="HTML code on a screen"
@@ -90,30 +92,34 @@
     <!-- aside tag used to add complementary info beside main part -->
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <!-- class related to remove bullet from li -->
+      <ul class="related">
         <li>
           <img src="related-1.jpg" alt="related-1" width="75" height="75" /><a
             href="#"
             >How to Learn Web Development</a
           >
-          <p>By Jonas Schmedtmann</p>
+          <!-- adding class related-author to style all together -->
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="related-2.jpg" alt="related-2" width="75" height="75" /><a
             href="#"
             >The Unknown Powers of CSS</a
           >
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="related-3.jpg" alt="related-3" width="75" height="75" /><a
             href="#"
             >Why Javascript is Awesome</a
           >
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
-    <footer>Copyright &copy; 2027 by The Code Megazine.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Megazine.</p>
+    </footer>
   </body>
 </html>

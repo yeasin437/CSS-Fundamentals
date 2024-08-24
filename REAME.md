@@ -14,4 +14,9 @@ why semantic tag?
 1. It is useful for SEO , search engine can understand the element and can know what about the webpage.
 2. It is also useful for Accessibility. Those who rely on like screen reader.
 
-font-size,font-family,text-transform,text-align
+font-size,font-family,text-transform,text-align,font-weight
+
+combining selector for same style
+article header p {} is not good idea this is depend on html structure which is also long,instead we can name the element
+
+Instead id , we can also used class attribute to name the element

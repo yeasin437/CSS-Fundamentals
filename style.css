@@ -2,29 +2,57 @@
 h1 {
   color: blue;
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
+/* combining elements */
+h1,
+h2,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 p {
   font-size: 22px;
-  font-family: sans-serif;
   /* 1.5 times by the font-size */
   line-height: 1.5;
 }
 /* nested element getting same style because of inheritance like here <em> inside <p> */
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 /* default font size 16Px */
 li {
-  font-family: sans-serif;
   font-size: 20px;
+}
+/* decendent selector all p element under footer element */
+/* footer p {
+  font-size: 16px;
+} */
+
+/* only header p changed all p under header,
+to change only specific category header  */
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#footer {
+  font-size: 16;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
 }
