@@ -20,3 +20,9 @@ combining selector for same style
 article header p {} is not good idea this is depend on html structure which is also long,instead we can name the element
 
 Instead id , we can also used class attribute to name the element
+
+Learned color property which accept color value
+
+if i just want to changed main header bg,we can give him a class.
+
+adding borderc
